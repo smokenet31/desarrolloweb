@@ -1,0 +1,156 @@
+/* Selectores de ID */
+
+#titulo{
+  color:red;
+}
+
+#logo{
+  /*margin-top: 200px;*/
+}
+
+/* Selectores de clases */
+
+.rojo{
+  color:red;
+}
+.rojo{
+  color:blue;
+}
+
+.logo{
+  margin-top: 200px;
+}
+/* Selectores con clase y ID */
+#titulo.titulo{
+  font-size: 60px;
+}
+.titulo{
+  font-size: 30px;
+}
+/* Selectores con 2 clases*/
+.azul.tituloCurso{
+  color:blue;
+}
+/* Selectores con elementos HTML*/
+
+p{
+  color:brown;
+}
+
+h3{
+  color:green;
+}
+h2{
+  color:orange;
+}
+img{
+  width: 300px;
+  /* Selectores con elementos HTML y ID*/
+}
+img#logo{
+  width:600px;
+}
+
+h2#titulo{
+  color:orange;
+}
+  /* Selectores con elementos HTML y Clases*/
+section.seccion{
+  background: orange;
+}
+div.noticias{
+  background:red;
+}
+/* Selector Universal*/
+
+/**{
+  color:black!important;
+  font-size:20px!important;
+}*/
+
+#listado-cursos * {
+  color:red;
+}
+.noticia * {
+  font-size: 20px;
+}
+/* Selector grupo*/
+h2, h3, p, a{
+  text-transform: uppercase;
+}
+h2, h3{
+  text-align: center;
+}
+/* Selector desendiente*/
+
+nav#navegacion{
+  background-color: orange;
+}
+nav#navegacion ul{
+  list-style: none;
+}
+nav#navegacion ul li{
+  display: inline;
+}
+nav#navegacion ul li a{
+  color:white;
+}
+/* Selector desendiente*/
+section#Cursos > ul{
+  border:1px solid black;
+}
+ul#listado-cursos li ul > li{
+  color:green;
+}
+/* Selector adyascentes*/
+ul#listado-cursos + p{
+  background-color: red!important;
+  color: white;
+}
+/* Selector para enlaces*/
+a[href*="facebook.com"]{
+  background-color: yellow;
+}
+
+a[href*="google.com"] {
+  background-color: purple;
+}
+/* Selector de atributo*/
+
+img[id="logo"]{
+  margin-top: 0;
+}
+[class="seccion"] {
+  background-color: blue!important;
+}
+/* Selector de pseudo Clases*/
+div.menu nav ul li a:focus,
+div.menu nav u li a:visited,
+div.menu nav ul li a:active{
+  color:black;
+}
+div.menu nav ul li a:hover{
+  colo:orange;
+}
+div.menu nav ul li:first-child a{
+  text-decoration: none;
+}
+/* Selector de pseudo Clases y NTH CHILD*/
+div.menu nav ul li:nth-child(1) {
+  background-color: red;
+}
+div.menu nav ul li:nth-child(2) {
+    background-color: yellow;
+}
+div.menu nav ul li:nth-child(3) {
+    background-color: purple;
+}
+div.menu nav ul li:nth-child(4) {
+    background-color: blue;
+}
+table tbody tr:nth-child(odd) {
+  background-color: orange;
+}
+table tbody tr:nth-child(even) {
+  background-color: purple;
+}
