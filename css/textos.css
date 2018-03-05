@@ -1,0 +1,35 @@
+/** font family*/
+body{
+  font-family: Arial, Helvetica, serif;
+}
+
+h2{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 30px;
+  /* font-size: 3rem;
+  font-size: 4em; */
+  font-style: italic;
+  text-transform: uppercase;
+}
+h3{
+  font-family: "Times New Roman", Serif;
+  font-size: 22px;
+}
+p{
+  font-family: Geneva, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+#listado-cursos li{
+  text-transform: lowercase;
+}
+#listado-cursos{
+  font-style: normal;
+}
+a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+section#introduccion p span{
+  font-size: italic;
+}
