@@ -1,0 +1,12 @@
+body{
+  background-color: gray;
+}
+
+.contenedor{
+  margin: 0 auto;
+  background-color: white;
+  width: 1000px;
+}
+nav ul li a{
+  color: purple;
+}
