@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <title>Cursos de Diseño Web - CSS</title>
     <link rel="stylesheet" href="css/normalize.css" >
-    <link rel="stylesheet" href="css/textos.css" >
+    <link rel="stylesheet" href="css/colores.css" >
   </head>
   <body>
-
 
     <div class="contenedor">
           <header>
@@ -17,25 +16,26 @@
           </header>
 
           <nav id="navegacion">
-            	<ul>
+            	<ul class="clearfix">
             		<li><a href="#">Inicio</a></li>
             		<li><a href="#">Nosotros</a></li>
             		<li><a href="#">Cursos</a></li>
             		<li><a href="#">Contacto</a></li>
             	</ul>
           </nav>
+        <div class="contenido clearfix">
+
 
           <main class="contenido-principal">
                 <section id="introduccion" class="seccion">
                     <h2 id="titulo">Aprendiendo HTML5 y CSS</h2>
-                    <img src="img/css3.png">
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p><span>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span> nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </section>
 
                 <section id="cursos" class="seccion">
                     <h2>Nuestros Cursos</h2>
-                    <p class="oferta">Todos los cursos de <span>$99</span> a $29 </p>
                       <ul id="listado-cursos">
                           <li>Diseño Web
                                 <ul>
@@ -51,6 +51,12 @@
                       <p>No te quedes fuera</p>
                     <a href="#" id="btnCursos" class="button cursos">Ver todos los cursos</a>
                 </section>
+
+                <div class="gran-promocion">
+                  <div class="texto-promocion">
+                    texto para ser centrado verticalmentetexto para ser centrado verticalmentetexto para ser centrado verticalmentetexto para ser centrado verticalmente
+                  </div>
+                </div>
 
                 <section id="noticias" class="seccion">
                     <h2>Ultimas Noticias</h2>
@@ -68,6 +74,11 @@
                     </div>
                     <a href="http://www.google.com.mx" class="button noticias">Ver todas las noticias</a>
                 </section>
+                <div class="padre rojo">
+                  <div class="hijo azul">
+
+                  </div>
+                </div>
             </main> <!--main-->
 
             <aside class="">
@@ -95,6 +106,7 @@
                     </tbody>
                 </table>
             </aside>
+          </div><!--contenido-->
     </div> <!--.contenedor-->
 
     <footer role="contentinfo" >

@@ -4,21 +4,23 @@ body{
 }
 
 h2{
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 30px;
-  /* font-size: 3rem;
-  font-size: 4em; */
-  font-style: italic;
-  text-transform: uppercase;
+  font: italic small-caps normal 30px/30px Verdana;
+  text-align: center;
+  letter-spacing: 2px;
+
+
 }
 h3{
   font-family: "Times New Roman", Serif;
   font-size: 22px;
+  font-variant: small-caps;
 }
 p{
   font-family: Geneva, Helvetica, sans-serif;
   font-size: 18px;
   text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
 }
 #listado-cursos li{
   text-transform: lowercase;
@@ -26,10 +28,25 @@ p{
 #listado-cursos{
   font-style: normal;
 }
+
+div.noticia p{
+  text-indent: 100px;
+}
+
+
 a {
   font-size: 14px;
   text-transform: uppercase;
+  text-decoration: none;
+}
+section#introduccion p {
+  font-variant: small-caps;
 }
 section#introduccion p span{
   font-size: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+p.oferta span{
+  text-decoration: line-through;
 }
